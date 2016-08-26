@@ -1,6 +1,6 @@
 header {
   height: 90px;
-  width: 100vw;
+  width: 410px;
   background-color: gray;
   display: flex;
   font-family: 'Roboto Condensed', sans-serif;
@@ -9,21 +9,45 @@ header {
   height: 90px;
   width: 60vw;
   color: white;
-  padding:50px 0px 10px 120px;
+  padding:20px 0px 10px 20px;
   font-size: 30px;
+  /*border: red solid;*/
 }
 .right-side-of-header {
   height: 90px;
-  width: 30vw;
+  width: 25vw;
+  /*border: blue solid;*/
 }
 .menu-items-in-header {
-  display: flex;
-  justify-content: space-around;
-  padding:60px 10px 0px 0px;
-  font-size: 20px;
+  padding:50px 0px 0px 0px;
+  font-size: 30px;
   color: white;
+  margin-left: 110px;
+  /*border: green solid;*/
 }
 .very-right-side-of-header {
   height: 90px;
-  width: 10vw;
+  width: 5vw;
+  /*border: silver solid;*/
+}
+main {
+  /*border: black solid;*/
+}
+.left-side-of-main {
+  width: 40vw;
+  height: 44vh;
+  background-color: lightgray;
+  /*border: gold solid;*/
+}
+.right-side-of-main {
+  width: 60vw;
+  height: 44vh;
+  background-color: lightgray;
+  margin-left: 166px;
+  /*border: solid blue;*/
+}
+.bottom-of-main {
+  width: 413px;
+  height: 100vh;
+  border: purple solid;
 }
