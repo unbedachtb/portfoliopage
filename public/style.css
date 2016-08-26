@@ -1,0 +1,29 @@
+header {
+  height: 90px;
+  width: 100vw;
+  background-color: gray;
+  display: flex;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.left-side-of-header {
+  height: 90px;
+  width: 60vw;
+  color: white;
+  padding:50px 0px 10px 120px;
+  font-size: 30px;
+}
+.right-side-of-header {
+  height: 90px;
+  width: 30vw;
+}
+.menu-items-in-header {
+  display: flex;
+  justify-content: space-around;
+  padding:60px 10px 0px 0px;
+  font-size: 20px;
+  color: white;
+}
+.very-right-side-of-header {
+  height: 90px;
+  width: 10vw;
+}
