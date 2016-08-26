@@ -1,6 +1,6 @@
 header {
   height: 90px;
-  width: 410px;
+  width: 414px;
   background-color: gray;
   display: flex;
   font-family: 'Roboto Condensed', sans-serif;
@@ -49,5 +49,20 @@ main {
 .bottom-of-main {
   width: 413px;
   height: 100vh;
-  border: purple solid;
+  /*border: purple solid;*/
+}
+footer {
+  height: 90px;
+  width: 414px;
+  background-color: gray;
+  font-family: 'Roboto Condensed', sans-serif;
+  /*border: blue solid;*/
+}
+.main-section-of-footer {
+  width: 400px;
+  font-size: 40px;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  /*border: red solid;*/
 }
